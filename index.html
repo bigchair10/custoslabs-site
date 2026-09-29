@@ -1,0 +1,181 @@
+<title>Custos Labs — Private AI for registered investment advisors</title>
+<meta name="description" content="Custos Labs builds retrieval-augmented AI that runs entirely on hardware inside your firm. Client documents never reach a public model API. Louisville, Kentucky.">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+  :root{
+    --ink:#11161c;        /* near-black, blue-biased */
+    --slate:#1c2733;
+    --paper:#f7f6f3;      /* warm off-white, chosen not inherited */
+    --rule:#d8d5cd;
+    --muted:#5a6572;
+    --brass:#9a7b3f;      /* single accent — institutional, not neon */
+    --ok:#2f5d50;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:ui-sans-serif,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:60rem;margin:0 auto;padding:0 1.5rem}
+  @media(min-width:50rem){.wrap{padding:0 2.5rem}}
+
+  /* ── masthead ── */
+  header{border-bottom:1px solid var(--rule)}
+  .mast{display:flex;align-items:baseline;justify-content:space-between;gap:1rem;padding:1.4rem 0;flex-wrap:wrap}
+  .brand{font-weight:700;letter-spacing:.14em;text-transform:uppercase;font-size:.82rem}
+  .brand span{color:var(--brass)}
+  .loc{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+  /* ── hero ── */
+  .hero{padding:4.5rem 0 3.5rem;border-bottom:1px solid var(--rule)}
+  h1{
+    font-size:clamp(2.1rem,5.4vw,3.6rem);line-height:1.08;margin:0;
+    letter-spacing:-.022em;font-weight:700;text-wrap:balance;max-width:20ch;
+  }
+  h1 em{font-style:normal;color:var(--brass)}
+  .lede{margin:1.6rem 0 0;max-width:62ch;font-size:1.12rem;color:var(--slate)}
+
+  /* ── the proof ── */
+  .proof{padding:3.5rem 0;border-bottom:1px solid var(--rule)}
+  .proof p{margin:0;max-width:56ch;font-size:1.32rem;line-height:1.45;letter-spacing:-.012em}
+  .proof b{font-weight:700}
+  .proof .sub{font-size:.98rem;color:var(--muted);margin-top:1.1rem;max-width:58ch}
+
+  /* ── figures ── */
+  .figs{display:grid;gap:0;border-bottom:1px solid var(--rule)}
+  @media(min-width:44rem){.figs{grid-template-columns:repeat(4,1fr)}}
+  .fig{padding:2rem 0;border-top:1px solid var(--rule)}
+  @media(min-width:44rem){
+    .fig{border-top:0;border-left:1px solid var(--rule);padding:2.2rem 1.4rem}
+    .fig:first-child{border-left:0;padding-left:0}
+  }
+  .fig .n{font-size:1.75rem;font-weight:700;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+  .fig .l{font-size:.82rem;color:var(--muted);margin-top:.3rem;line-height:1.45}
+
+  /* ── sections ── */
+  section{padding:3.5rem 0;border-bottom:1px solid var(--rule)}
+  h2{font-size:.78rem;letter-spacing:.16em;text-transform:uppercase;color:var(--brass);
+     margin:0 0 1.5rem;font-weight:700}
+  h3{font-size:1.05rem;margin:0 0 .4rem;letter-spacing:-.01em}
+  .cols{display:grid;gap:2.2rem}
+  @media(min-width:44rem){.cols{grid-template-columns:1fr 1fr;gap:2.8rem}}
+  .cols p{margin:0;color:var(--slate);font-size:.98rem}
+
+  .stack{list-style:none;padding:0;margin:0;display:grid;gap:.9rem}
+  .stack li{display:grid;grid-template-columns:auto 1fr;gap:.9rem;align-items:start;
+    font-size:.98rem;color:var(--slate)}
+  .stack .k{color:var(--brass);font-weight:700;font-variant-numeric:tabular-nums;
+    font-size:.8rem;letter-spacing:.06em;padding-top:.22rem}
+
+  /* ── contact ── */
+  .foot{padding:3rem 0 4rem}
+  .foot a{color:var(--ink);text-decoration:none;border-bottom:1.5px solid var(--brass);
+    padding-bottom:1px;font-weight:600}
+  .foot a:hover{color:var(--brass)}
+  .legal{margin-top:2.2rem;font-size:.8rem;color:var(--muted);line-height:1.7;
+    border-top:1px solid var(--rule);padding-top:1.4rem}
+  .legal b{color:var(--slate);font-weight:600}
+</style>
+
+<header>
+  <div class="wrap mast">
+    <div class="brand">Custos <span>Labs</span></div>
+    <div class="loc">Louisville, Kentucky</div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="hero">
+    <h1>AI that never leaves <em>your building.</em></h1>
+    <p class="lede">
+      Custos Labs builds retrieval-augmented AI for registered investment advisors and family
+      offices. Every token of inference and every stored embedding stays on hardware your firm
+      controls — client documents physically cannot reach a public model API.
+    </p>
+  </div>
+
+  <div class="proof">
+    <p>We'll draft your real work. Then we'll <b>unplug the internet</b> — and it keeps writing.</p>
+    <p class="sub">
+      No cloud, no third-party API, no data leaving the room, because the model is already
+      running on a machine in your office. We demonstrate it live in the first meeting.
+    </p>
+  </div>
+
+  <div class="figs">
+    <div class="fig"><div class="n">0</div><div class="l">bytes sent to a public model API</div></div>
+    <div class="fig"><div class="n">100%</div><div class="l">inference on hardware you own</div></div>
+    <div class="fig"><div class="n">60-day</div><div class="l">pilot at no cost</div></div>
+    <div class="fig"><div class="n">Every draft</div><div class="l">reviewed and approved by you</div></div>
+  </div>
+
+  <section>
+    <h2>The problem</h2>
+    <div class="cols">
+      <div>
+        <h3>Advisors want AI. Compliance says no.</h3>
+        <p>
+          The major providers' terms reserve rights to retain or train on submitted data. For a
+          firm bound by SEC Regulation S-P, FINRA recordkeeping and fiduciary duty of
+          confidentiality, that makes the entire category unusable — not for lack of a product,
+          but because no provider can offer frontier quality <em>and</em> a guarantee that client
+          data never leaves the firm's control.
+        </p>
+      </div>
+      <div>
+        <h3>So the work doesn't get done.</h3>
+        <p>
+          Document review, client correspondence, research synthesis — the work most improved by
+          language models is precisely the work that touches the most confidential material.
+          Firms are left doing it by hand while less-regulated competitors automate.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ul class="stack">
+      <li><span class="k">01</span><span><b>Ingest.</b> Prospectuses, Form ADVs, 10-Ks, advisory agreements and trust instruments are parsed with page-aware chunking, on your hardware.</span></li>
+      <li><span class="k">02</span><span><b>Retrieve.</b> Local embedding and a cross-encoder reranker surface the decisive clause — often a single sentence inside a two-hundred-page filing.</span></li>
+      <li><span class="k">03</span><span><b>Answer with citations.</b> An open-weight model generates with inline source references tied to the exact page.</span></li>
+      <li><span class="k">04</span><span><b>Verify.</b> Every cited span is checked programmatically against the source. Anything that cannot be grounded is flagged rather than asserted.</span></li>
+      <li><span class="k">05</span><span><b>Audit.</b> Each query and its sources are recorded in a tamper-evident log, for SEC or FINRA examination.</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Who it's for</h2>
+    <div class="cols">
+      <div>
+        <h3>Registered investment advisors</h3>
+        <p>SEC- and state-registered firms with a compliance function that has already said no to cloud AI.</p>
+      </div>
+      <div>
+        <h3>Family offices</h3>
+        <p>Single and multi-family offices handling estate, trust and tax documents that cannot be exposed to a third party.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="foot">
+    <h2>Contact</h2>
+    <p style="margin:0 0 .4rem"><a href="mailto:john@custoslabs.ai">john@custoslabs.ai</a></p>
+    <p style="margin:0;color:var(--muted);font-size:.95rem">
+      Pilots are running now with Louisville-area firms.
+    </p>
+
+    <div class="legal">
+      <b>Custos Labs LLC</b> — a Kentucky limited liability company, organization number 1638083.
+      Louisville, Kentucky, United States. All research and development performed in Kentucky.
+      <br><br>
+      Custos Labs is a technology vendor. It does not provide investment, legal or tax advice,
+      and is not a registered investment adviser.
+    </div>
+  </div>
+
+</div>
